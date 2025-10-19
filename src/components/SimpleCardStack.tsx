@@ -119,7 +119,7 @@ const SimpleCardStack = () => {
               <div
                 className="absolute inset-0 z-0"
                 style={{
-                  backgroundImage: "url('/background-section1.png')",
+                  backgroundImage: "url('/background-section1.webp')",
                   backgroundSize: "cover",
                   backgroundPosition: "top center"
                 }}
@@ -157,7 +157,7 @@ const SimpleCardStack = () => {
               <div
                 className="absolute inset-0 z-0"
                 style={{
-                  backgroundImage: "url('/background-section2.png')",
+                  backgroundImage: "url('/background-section2.webp')",
                   backgroundSize: "cover",
                   backgroundPosition: "center"
                 }}
@@ -195,7 +195,7 @@ const SimpleCardStack = () => {
               <div
                 className="absolute inset-0 z-0"
                 style={{
-                  backgroundImage: "url('/background-section3.png')",
+                  backgroundImage: "url('/background-section3.webp')",
                   backgroundSize: "cover",
                   backgroundPosition: "bottom center"
                 }}

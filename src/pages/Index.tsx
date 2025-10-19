@@ -96,7 +96,7 @@ const Index = () => {
             className="relative z-10"
           >
             <img
-              src="/uploads/c32c6788-5e4a-4fee-afee-604b03113c7f.png"
+              src="/uploads/jasa-pembuatan-web-makassar.webp"
               alt="IDEA Digital Portfolio Showcase"
               className="w-full h-auto rounded-lg"
             />
