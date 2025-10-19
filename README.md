@@ -1,69 +1,144 @@
-# Welcome to your Lovable project
+# IDEA Digital Creative - Jasa Pembuatan Website Makassar
 
-## Project info
+Website landing page profesional untuk jasa pembuatan website di Makassar. Dibangun dengan teknologi modern untuk memberikan pengalaman terbaik bagi klien yang mencari layanan web development lokal.
 
-**URL**: https://lovable.dev/projects/92dc0c12-c831-4ed8-9ab7-0f875920f45d
+## 🚀 Fitur Utama
 
-## How can I edit this code?
+- **Responsive Design**: Tampilan optimal di semua perangkat (desktop, tablet, mobile)
+- **Interactive FAQ**: Dropdown FAQ dengan animasi smooth
+- **Progressive Card Stack**: Efek scroll yang menarik untuk section "Tentang Kami"
+- **WhatsApp Integration**: Kontak langsung ke WhatsApp (0852-4276-6676)
+- **SEO Optimized**: Schema markup dan meta tags lengkap untuk SEO lokal
+- **Modern UI**: Menggunakan Tailwind CSS dan Framer Motion
 
-There are several ways of editing your application.
+## 🛠️ Teknologi yang Digunakan
 
-**Use Lovable**
+- **Vite** - Build tool yang cepat
+- **TypeScript** - Type safety dan developer experience yang lebih baik
+- **React** - Library UI modern
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animasi dan transisi yang smooth
+- **shadcn/ui** - Komponen UI yang dapat dikustomisasi
+- **Lucide React** - Icon library yang modern
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/92dc0c12-c831-4ed8-9ab7-0f875920f45d) and start prompting.
+## 📦 Paket Layanan
 
-Changes made via Lovable will be committed automatically to this repo.
+### 1. **Basic (Rp 1,5 Juta)**
+- 5 halaman website responsif
+- Desain mobile-friendly
+- Gratis domain & hosting 1 tahun
+- Basic SEO optimization
+- 2 kali revisi desain
+- Support 30 hari
 
-**Use your preferred IDE**
+### 2. **Professional (Rp 2,5 Juta)** ⭐ *Most Popular*
+- Website company profile lengkap
+- Sistem manajemen konten
+- SEO lokal untuk Google Maps
+- Gratis domain & hosting 1 tahun
+- Unlimited revisi desain
+- Support 90 hari
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 3. **Premium (Rp 4 Juta)**
+- Website e-commerce lengkap
+- Sistem pembayaran online
+- SEO lokal & Google Bisnisku
+- Gratis domain & hosting 1 tahun
+- Maintenance 6 bulan
+- Support 1 tahun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Cara Menjalankan Proyek
 
-Follow these steps:
+### Prerequisites
+- Node.js (versi 16 atau lebih baru)
+- npm atau yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone repository
+git clone https://github.com/talamusid-prog/makassar-idea.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Masuk ke direktori proyek
+cd makassar-idea
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Jalankan development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Aplikasi akan berjalan di `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Struktur Proyek
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # Komponen React
+│   ├── features/       # Komponen fitur
+│   ├── pricing/        # Komponen pricing
+│   └── ui/             # Komponen UI dasar
+├── pages/              # Halaman utama
+├── config/             # Konfigurasi
+└── lib/                # Utilities
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎨 Kustomisasi
 
-## What technologies are used for this project?
+### Mengubah Warna Tema
+Edit file `tailwind.config.ts` untuk mengubah warna primary:
 
-This project is built with .
+```typescript
+primary: {
+  DEFAULT: "#F97316", // Orange
+  foreground: "hsl(var(--primary-foreground))",
+}
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Mengubah Kontak WhatsApp
+Edit file `src/components/FloatingWhatsApp.tsx`:
 
-## How can I deploy this project?
+```typescript
+const phoneNumber = "6285242766676"; // Ganti dengan nomor Anda
+```
 
-Simply open [Lovable](https://lovable.dev/projects/92dc0c12-c831-4ed8-9ab7-0f875920f45d) and click on Share -> Publish.
+## 📱 Responsive Design
 
-## I want to use a custom domain - is that possible?
+Website ini dioptimalkan untuk:
+- **Mobile**: 320px - 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: 1024px+
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 🔍 SEO Features
+
+- Schema markup LocalBusiness
+- Meta tags lengkap
+- Sitemap.xml
+- Robots.txt
+- Open Graph tags
+- Twitter Card tags
+
+## 📞 Kontak
+
+- **WhatsApp**: 0852-4276-6676
+- **Email**: info@ideadigital.id
+- **Alamat**: JL. Batua Raya Komp rayhan Town House Makassar
+
+## 📄 Lisensi
+
+© 2025 IDEA Digital Creative. All rights reserved.
+
+## 🤝 Kontribusi
+
+Jika Anda ingin berkontribusi pada proyek ini, silakan:
+
+1. Fork repository ini
+2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
+
+---
+
+**IDEA Digital Creative** - Jasa Pembuatan Website Makassar Profesional dan Terpercaya
