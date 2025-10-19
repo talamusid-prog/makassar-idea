@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Main Sitemap -->
+  <sitemap>
+    <loc>https://makassar.ideadigitalcreative.com/sitemap.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+  <!-- Services Sitemap -->
+  <sitemap>
+    <loc>https://makassar.ideadigitalcreative.com/sitemap-services.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+  <!-- Location Sitemap -->
+  <sitemap>
+    <loc>https://makassar.ideadigitalcreative.com/sitemap-locations.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+  <!-- Blog/Content Sitemap (if you have blog) -->
+  <sitemap>
+    <loc>https://makassar.ideadigitalcreative.com/sitemap-blog.xml</loc>
+    <lastmod>2024-01-15</lastmod>
+  </sitemap>
+  
+</sitemapindex>

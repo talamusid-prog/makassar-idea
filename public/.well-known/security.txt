@@ -1,0 +1,7 @@
+Contact: mailto:info@ideadigital.id
+Contact: https://makassar.ideadigitalcreative.com/kontak
+Expires: 2025-12-31T23:59:59.000Z
+Encryption: https://makassar.ideadigitalcreative.com/pgp-key.txt
+Preferred-Languages: id, en
+Canonical: https://makassar.ideadigitalcreative.com/.well-known/security.txt
+Policy: https://makassar.ideadigitalcreative.com/security-policy

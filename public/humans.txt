@@ -1,0 +1,15 @@
+# IDEA Digital Creative - Jasa Pembuatan Website Makassar
+
+/* TEAM */
+Developer: IDEA Digital Creative Team
+Contact: info@ideadigital.id
+Location: Makassar, Sulawesi Selatan, Indonesia
+
+/* THANKS */
+Thanks to all our clients in Makassar who trust us with their digital presence.
+
+/* SITE */
+Last update: 2024/01/15
+Language: Indonesian
+Doctype: HTML5
+IDE: VS Code, Cursor

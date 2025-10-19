@@ -1,0 +1,69 @@
+{
+  "name": "IDEA Digital Creative - Jasa Pembuatan Website Makassar",
+  "short_name": "IDEA Digital",
+  "description": "Jasa pembuatan website Makassar profesional dan terpercaya. Website company profile, e-commerce, sekolah dengan SEO lokal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#F97316",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["business", "technology", "web development"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/og-image.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-mobile.png", 
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Konsultasi Gratis",
+      "short_name": "Konsultasi",
+      "description": "Konsultasi gratis untuk jasa pembuatan website",
+      "url": "/#pricing",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "Portofolio",
+      "short_name": "Portofolio", 
+      "description": "Lihat hasil kerja kami",
+      "url": "/#features",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
